@@ -29,18 +29,20 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-.container {
-  position: left;
+.block {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: dd00dd;
 }
 
-.text-block {
-  position: center;
-  bottom: 20px;
-  right: 20px;
-  background-color: dd00dd;
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
+.container {
+  text-align: right;
+}
+
+.block img {
+ width: 400px;
+ height: 400px;
 }
 
 </style>
@@ -56,12 +58,11 @@ body {
   
 <h2>A Little Bit About Myself</h2>
 <div>
-<img src="shainy.jpg" alt="profile" style="width:100%;max-width:300px">
-<div class="text-block">
-    <h4>HI THERE!</h4>
-    <p>I'm Darshaini and I'm a MUA means MakeUp Artist</p>
+<div class="container">
+  <div class="block">
+    <img src="shainy.jpg" alt="profile" style="width:100%;">
+    <p>HYE THERE!!!</p>
   </div>
-  <div>
 </body>
 
 </html>
